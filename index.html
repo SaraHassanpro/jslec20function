@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function in java script</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container mx-auto border border-primary my-3 p-2">
+    <div class="row">
+        <div class="col-md-10">
+            <h3 id="demo">0</h3>
+            <button id="inc" onclick="increment() ">Increment</button>
+            <button id="dec" onclick="decrement()">Decrement</button>
+        </div>
+    </div>
+</div>
+<div class="container mx-auto border border-secondary my-3 p-2">
+    <div class="row">
+        <div class="col-md-10">
+            <h3 class="text-center">Conver from dollar to egyption pound</h3>
+            <form action="about.html" onsubmit="return convertData()">
+                <input type="text" id="myInput" class="form-control my-3" >
+                <input type="submit" class="btn btn-success btn-block" value="convert">
+                <h4 id="result">0</h4>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
